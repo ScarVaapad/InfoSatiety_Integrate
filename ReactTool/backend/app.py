@@ -16,6 +16,7 @@ from flask import send_file
 #from flask_mail import Mail, Message
 #import firebase_admin
 #from firebase_admin import credentials, firestore, initialize_app, firebase
+# Wen just wrote something down
 
 app = Flask(__name__, static_folder='../frontend/build', static_url_path='/')
 app.config['MYSQL_DATABASE_HOST'] = db_conf.host
